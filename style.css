@@ -1,0 +1,95 @@
+ /*Colors and fonts */
+h1, h2, h3, h4, h5 {
+  font-family: "Helvetica", sans-serif;
+  line-height: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  line-height: 30px;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+ body {
+  color: black;
+  font-size: 20px;
+  line-height: 40px;
+  background-image: url(images/3.jpg)
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 65px;
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+h5 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-white {
+	width: 1120px;
+	border: 8px solid black;
+	padding: 35px 50px 50px 50px;
+	margin: 50px 50px 50px 50px;
+	background: white;
+}
+
+p {
+	text-align: center;
+}
+
+#profile {
+	width: 400px;
+	border-radius: 50%;
+	display: block;
+	margin-top: 50pt; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40pt;
+	width: 40%;
+}
+
+.container {
+	width: 700px;
+	margin: 50px 50px 50px 50px;
+
+}
+
+@media (max-width: 1000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
